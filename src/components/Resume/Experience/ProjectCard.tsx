@@ -1,5 +1,3 @@
-import ImageCarousel from './ImageCarousel'
-
 type ProjectCardProps = {
   title: string
   type: string
@@ -30,12 +28,12 @@ function ProjectCard({ title, type, dateText, description, tags, link, images }:
 
       {/* Content Section */}
       <div className="flex-1 ms-1">
-        <div className="flex justify-between items-start mb-4">
+        <div className="flex flex-col md:flex-row md:justify-between items-start mb-4">
           <div>
             <h3 className="text-2xl font-semibold">{title}</h3>
             <p className="text-gray-400">{type}</p>
           </div>
-          <span className="text-gray-400">{dateText}</span>
+          <span className="text-gray-400 mt-2 md:mt-0">{dateText}</span>
         </div>
 
         <div className="flex flex-wrap gap-2 mb-4">

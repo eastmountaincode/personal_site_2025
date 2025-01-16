@@ -1,0 +1,74 @@
+{
+    "education": [
+      {
+        "school": "School for Poetic Computation",
+        "degree": "Independent Study",
+        "location": "NYC (Remote)",
+        "dateText": "January 2025 - March 2025",
+        "description": [
+          "Non-degree program",
+          "Instructor: Everest Pipkin",
+          "Course Title: The Browser Is Already A Game Engine"
+        ],
+        "images": [
+            "sfpc_2.jpg"
+        ],
+        "starred": false
+      },
+      {
+        "school": "Northeastern University",
+        "degree": "Master of Science, Computer Science",
+        "location": "Boston, MA",
+        "dateText": "August 2021 - May 2024",
+        "gpa": "3.8",
+        "selectedCoursework": [
+          "Web Development",
+          "Database Management Systems",
+          "Object-Oriented Design",
+          "Algorithms",
+          "Discrete Math",
+          "Mobile App Development (Java)",
+          "Fundamentals of Cloud Computing",
+          "Natural Language Processing",
+          "Reinforcement Learning"
+        ],
+        "images": [
+            "neu_3.png"
+        ],
+        "starred": true
+      },
+      {
+        "school": "University of Cincinnati",
+        "degree": "Bachelor of Arts, Sociology",
+        "location": "Cincinnati, OH",
+        "dateText": "August 2019 - May 2021",
+        "gpa": "3.9",
+        "selectedCoursework": [
+          "Python & R",
+          "Computer Programming I (Java)",
+          "Statistics I",
+          "Calculus I",
+          "Physics I",
+          "Intro To GIS"
+        ],
+        "images": [
+            "uc_3.avif"
+        ],
+        "starred": false
+      },
+      {
+        "school": "San Francisco Art Institute",
+        "degree": "History & Theory of Contemporary Art",
+        "location": "San Francisco, CA",
+        "dateText": "August 2014 - May 2017",
+        "description": [
+          "Completed 78 credits toward BA"
+        ],
+        "images": [
+            "sfai_1.avif"
+        ],
+        "starred": false
+      }
+    ]
+  }
+  
