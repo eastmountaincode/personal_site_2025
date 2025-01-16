@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { differenceInYears, differenceInMonths, differenceInDays, differenceInHours, differenceInMinutes, differenceInSeconds } from 'date-fns'
 
 function TimeElapsed() {
   const [timeElapsed, setTimeElapsed] = useState('')
@@ -8,14 +9,13 @@ function TimeElapsed() {
     
     const updateTime = () => {
       const now = new Date()
-      const diff = now.getTime() - startDate.getTime()
       
-      const years = Math.floor(diff / (1000 * 60 * 60 * 24 * 365))
-      const months = Math.floor((diff % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24 * 30))
-      const days = Math.floor((diff % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24))
-      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
-      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60))
-      const seconds = Math.floor((diff % (1000 * 60)) / 1000)
+      const years = differenceInYears(now, startDate)
+      const months = differenceInMonths(now, startDate) % 12
+      const days = differenceInDays(now, startDate) % 30
+      const hours = differenceInHours(now, startDate) % 24
+      const minutes = differenceInMinutes(now, startDate) % 60
+      const seconds = differenceInSeconds(now, startDate) % 60
       
       setTimeElapsed(`${years} years ${months} months ${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`)
     }
@@ -29,3 +29,4 @@ function TimeElapsed() {
 }
 
 export default TimeElapsed
+
