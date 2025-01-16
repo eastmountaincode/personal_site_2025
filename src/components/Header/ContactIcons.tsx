@@ -1,4 +1,4 @@
-import { FaLinkedin } from 'react-icons/fa'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 import { useTheme } from '../../context/ThemeContext'
 
@@ -14,6 +14,14 @@ function ContactIcons() {
         className={`text-2xl ${isDark ? 'text-gray-200 hover:text-blue-400' : 'text-gray-700 hover:text-blue-600'} transition-colors `}
       >
         <FaLinkedin />
+      </a>
+      <a
+        href="https://github.com/eastmountaincode"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`text-2xl ${isDark ? 'text-gray-200 hover:text-blue-400' : 'text-gray-700 hover:text-blue-600'} transition-colors `}
+      >
+        <FaGithub />
       </a>
       <a
         href="mailto:andreweboylan@gmail.com"
