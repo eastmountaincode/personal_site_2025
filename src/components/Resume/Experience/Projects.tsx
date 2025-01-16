@@ -7,7 +7,7 @@ function Projects() {
 
   return (
     <div>
-      <h2 className="text-2xl mb-6">Projects</h2>
+      <h2 className="text-2xl mb-6">Recent Projects</h2>
       <div>
         {projects.map((project, index) => (
           <ProjectCard
