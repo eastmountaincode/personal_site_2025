@@ -15,7 +15,7 @@
       "dateText": "December 2024",
       "type": "Personal Project",
       "description": [
-        "Developed a full-stack web application for repurposing Youtube as a drum machine and sharing patterns.",
+        "Developed a full-stack web application for repurposing Youtube as a drum machine and for sharing created patterns.",
         "Implemented a GraphQL API with Apollo Server on EC2, leveraging GraphQL's type-safe declarative query interface to simplify client-server interactions.",
         "Utilized Redux and Redux Persist for state management, incorporating versioning to handle future changes to store structure by resetting persisted state upon version mismatches.",
         "Implemented secure file upload and download functionality by generating AWS S3 pre-signed URLs, enabling clients to upload and download from S3 without exposing server credentials.",
@@ -40,7 +40,7 @@
       "dateText": "October 2024",
       "type": "Personal Project",
       "description": [
-        "Developed a music streaming application using React, MongoDB, and Firebase for object storag.",
+        "Developed a music streaming application using React, MongoDB, and Firebase for object storage.",
         "Implemented user authentication and account management.",
         "Created a responsive audio player with custom controls using Howler.js.",
         "Designed and implemented a token-based access system for premium content.",

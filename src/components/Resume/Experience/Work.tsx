@@ -1,14 +1,29 @@
+import WorkCard from './WorkCard'
+import workData from '../../../data/work.json'
+import { WorkData } from '../../../types/work'
+
 function Work() {
-    return (
+  const { work } = workData as WorkData
+
+  return (
+    <div>
+      <h2 className="text-2xl mb-6">Work Experience</h2>
       <div>
-        <h2 className="text-2xl mb-4">Work Experience</h2>
-        <div>
-          <p>Software Engineer</p>
-          <p>Company XYZ</p>
-        </div>
+        {work.map((job, index) => (
+          <WorkCard
+            key={index}
+            title={job.title}
+            company={job.company}
+            location={job.location}
+            dateText={job.dateText}
+            tags={job.tags}
+            description={job.description}
+            images={job.images}
+          />
+        ))}
       </div>
-    )
-  }
-  
-  export default Work
-  
+    </div>
+  )
+}
+
+export default Work

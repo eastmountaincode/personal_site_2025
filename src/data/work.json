@@ -1,0 +1,50 @@
+{
+  "work": [
+    {
+      "title": "Bioinformatics Specialist",
+      "company": "Massachusetts General Hospital",
+      "location": "Boston, MA",
+      "dateText": "January 2023 - Present",
+      "tags": ["Python", "R", "Linux", "Docker", "Matplotlib"],
+      "description": [
+        "Gained diverse project experience, working with single-cell RNA-seq data, bulk RNA-seq data, structural molecular data, and phylogenentic data.",
+        "Developed a protein structure analysis tool using KNN clustering and matplotlib for interactive visualization of local RMSD calculations between AlphaFold-generated structures.",
+        "Architected containerized environments using Docker for reproducible single-cell RNAseq analysis workflows.",
+        "Automated RNA-seq transcriptome assembly pipeline, resulting in 8x productivity speed-up.",
+        "Implemented a 7-day rolling backup solution using hard links for storage optimization.",
+        "Set up RAID arrays for high-availability storage infrastructure.",
+        "Created technical documentation and architecture diagrams using Freeform to visually communicate complex workflows to stakeholders."
+      ],
+      "images": [
+        "mgh_2.png"
+      ]
+    },
+    {
+      "title": "XN Rising Program Intern",
+      "company": "Pfizer / Northeastern University",
+      "location": "Boston, MA",
+      "dateText": "February 2022 - April 2022",
+      "tags": ["Python", "Machine Learning"],
+      "description": [
+        "Developed an accessible bibliographic reference parser in collaboration with four other students and a project sponsor from Pfizer using regex and open-source machine learning packages.",
+        "Produced a ground truth bibliographic reference dataset for all articles on PubMed (33 million entries) using web scraping with multithreading, reducing download time from days to hours."
+      ],
+      "images": [
+        "pfizer2.png"
+      ]
+    },
+    {
+      "title": "Research Assistant",
+      "company": "Digital Scholarship Center at University of Cincinnati",
+      "location": "Cincinnati, OH",
+      "dateText": "January 2021 - August 2021",
+      "tags": ["Python", "scikit-learn", "Web Scraping", "Data Science"],
+      "description": [
+        "Built text classifiers using scikit-learn and BERT to answer research questions.",
+        "Produced usable, large-scale datasets via API pulls, web scraping, and data cleaning",
+        "Coordinated weekly with team leader on multiple concurrent projects."
+      ],
+      "images": []
+    }
+  ]
+}
