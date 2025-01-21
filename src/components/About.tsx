@@ -25,14 +25,14 @@ function About() {
             <span className="mt-6 w-2 h-2 rounded-full bg-gray-400 shrink-0"></span>
             <div className="flex flex-col">
               <span className="text-sm text-gray-500 font-mono">2017 - 2019</span>
-              <span>Moved home to Cincinnati to pursue music, toured with WHY? and Tomberlin, performed on Tiny Desk.</span>
+              <span>Moved to Cincinnati to pursue music, toured with WHY? and Tomberlin, performed on Tiny Desk.</span>
             </div>
           </li>
           <li className="flex items-start gap-4">
             <span className="mt-6 w-2 h-2 rounded-full bg-gray-400 shrink-0"></span>
             <div className="flex flex-col">
               <span className="text-sm text-gray-500 font-mono">2019 - 2021</span>
-              <span>Went back to school at University of Cincinnati, became interested in natural language processing, became a research assistant at the UC Digital Scholarship Center.</span>
+              <span>Began studies at University of Cincinnati, became interested in natural language processing, became a research assistant at the UC Digital Scholarship Center.</span>
             </div>
           </li>
           <li className="flex items-start gap-4">
@@ -67,7 +67,7 @@ function About() {
         </div>
 
         <p className="text-lg leading-relaxed">
-          In my creative practice, I explore community play, aiming to create spaces for unexpected outcomes in digital environments. Rather than producing an artifact, my work investigates how to bring about a generative space - creating circumstances for the audience to be creative, and dissolving the notion of "audience" to begin with.
+          In my creative practice, I explore community play, aiming to create spaces for unexpected outcomes in digital environments. Rather than producing an artifact, my work investigates how to bring about a generative space - constructing a more permeable border between artist and audience.
         </p>
       </div>
 
@@ -80,7 +80,7 @@ function About() {
         </div>
 
         <p className="text-lg leading-relaxed">
-          In my personal life, I work on an organic farm on the weekends in the warmer months (where I also assist with things like graphic design and website maintenance). I enjoy seeing live music in Boston from around the world, and eating a full Turkish breakfast, ideally.
+          On weekends, I work on an organic farm (where I also assist with graphic design and website maintenance). I enjoy seeing live music in Boston from around the world, and eating a full Turkish breakfast, ideally.
         </p>
       </div>
     </div>
