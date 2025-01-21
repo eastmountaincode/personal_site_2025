@@ -1,4 +1,4 @@
-import profileImage from '../../assets/profile_square_2.jpg'
+import profileImage from '../../assets/profile_square_2-min.jpg'
 import { FaLocationDot, FaGraduationCap, FaCode } from 'react-icons/fa6'
 
 function ResumeHeader() {
