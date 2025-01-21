@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Resume from './components/Resume/Resume'
-import About from './components/About'
+import About from './components/About/About'
 import Header from './components/Header/Header'
 import { useTheme } from './context/ThemeContext'
 

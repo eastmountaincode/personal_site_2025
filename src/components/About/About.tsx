@@ -1,3 +1,5 @@
+import Timeline from "./Timeline"
+
 function About() {
   return (
     <div className="transition-colors duration-1000 flex flex-col items-center p-3">
@@ -5,45 +7,8 @@ function About() {
         <h2>About Me</h2>
       </div>
 
-      <div className="mt-8 max-w-xl mx-auto">
-        <div className="flex items-center gap-3 mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-          <h3 className="text-xl font-semibold">Timeline</h3>
-        </div>
+      <Timeline />
 
-        <ul className="list-none space-y-4">
-          <li className="flex items-start gap-4">
-            <span className="mt-6 w-2 h-2 rounded-full bg-gray-400 shrink-0"></span>
-            <div className="flex flex-col">
-              <span className="text-sm text-gray-500 font-mono">2014 - 2017</span>
-              <span>Studied printmaking and art history at the San Francisco Art Institute.</span>
-            </div>
-          </li>
-          <li className="flex items-start gap-4">
-            <span className="mt-6 w-2 h-2 rounded-full bg-gray-400 shrink-0"></span>
-            <div className="flex flex-col">
-              <span className="text-sm text-gray-500 font-mono">2017 - 2019</span>
-              <span>Moved to Cincinnati to pursue music, toured with WHY? and Tomberlin, performed on Tiny Desk.</span>
-            </div>
-          </li>
-          <li className="flex items-start gap-4">
-            <span className="mt-6 w-2 h-2 rounded-full bg-gray-400 shrink-0"></span>
-            <div className="flex flex-col">
-              <span className="text-sm text-gray-500 font-mono">2019 - 2021</span>
-              <span>Began studies at University of Cincinnati, became interested in natural language processing, became a research assistant at the UC Digital Scholarship Center.</span>
-            </div>
-          </li>
-          <li className="flex items-start gap-4">
-            <span className="mt-6 w-2 h-2 rounded-full bg-gray-400 shrink-0"></span>
-            <div className="flex flex-col">
-              <span className="text-sm text-gray-500 font-mono">2021 - 2024</span>
-              <span>Moved to Boston and completed a master's degree in computer science at Northeastern University.</span>
-            </div>
-          </li>
-        </ul>
-      </div>
 
       <div className="mt-12 max-w-xl mx-auto">
         <div className="flex items-center gap-3 mb-4">
@@ -54,9 +19,24 @@ function About() {
         </div>
 
         <p className="text-lg leading-relaxed">
-          As a software engineer, I enjoy working in many different domains, which is why I am drawn to full-stack development. I enjoy creating functional things for other people to use. I envision that my dream role would be on a small team of individuals who care about doing excellent work, at a small to medium size organization.
+          I enjoy working in a variety of domains, which is why I am drawn to full-stack development. I get much enjoyment out of creating functional things for other people to use. My dream role would be on a small team of individuals who care about doing excellent work, at a small to medium size organization.
         </p>
       </div>
+
+
+      <div className="mt-12 max-w-xl mx-auto">
+        <div className="flex items-center gap-3 mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+          </svg>
+          <h3 className="text-xl font-semibold">Human-AI Collaboration</h3>
+        </div>
+
+        <p className="text-lg leading-relaxed">
+        I view LLMs as collaborative partners that complement my hands-on learning style. These tools help me rapidly prototype ideas and discover cutting-edge design patterns, yet I always anchor their output in fundamental understanding—whether that means manually diagramming AI-suggested architectures, refactoring generated code for clarity, or explaining technical choices in human terms. This balance allows me to embrace AI's exploratory potential while preserving the human intention behind every technical decision.        </p>
+      </div>
+
+
 
       <div className="mt-12 max-w-xl mx-auto">
         <div className="flex items-center gap-3 mb-4">

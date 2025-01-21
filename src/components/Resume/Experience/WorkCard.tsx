@@ -44,11 +44,13 @@ function WorkCard({
             <p className="text-xl text-gray-300">{company}</p>
             <p className="text-gray-400">{location}</p>
           </div>
-          {title === "Bioinformatics Specialist" ? (
-            <TimeElapsed />
-          ) : (
-            <span className="text-gray-400 mt-2 md:mt-0">{dateText}</span>
-          )}
+          <div className="w-full md:w-auto md:text-right"> {/* Add these classes */}
+            {title === "Bioinformatics Specialist" ? (
+              <TimeElapsed />
+            ) : (
+              <span className="text-gray-400 mt-2 md:mt-0">{dateText}</span>
+            )}
+          </div>
         </div>
 
         <div className="flex flex-wrap gap-2 mb-4">

@@ -25,7 +25,7 @@ function TimeElapsed() {
     return () => clearInterval(interval)
   }, [])
   
-  return <span className="text-gray-400">{timeElapsed}</span>
+  return <span className="text-gray-400 md:ps-12">{timeElapsed}</span>
 }
 
 export default TimeElapsed
