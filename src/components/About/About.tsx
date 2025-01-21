@@ -1,5 +1,5 @@
 import Timeline from "./Timeline"
-import andrewImage from '../../assets/andrew_eye.jpg'
+import andrewImage from '../../assets/andrew_eye-min.jpg'
 
 function About() {
   return (
