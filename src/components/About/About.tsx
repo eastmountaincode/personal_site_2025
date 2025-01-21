@@ -19,7 +19,7 @@ function About() {
         </div>
 
         <p className="text-lg leading-relaxed">
-          I enjoy working in a variety of domains, which is why I am drawn to full-stack development. I get much enjoyment out of creating functional things for other people to use. My dream role would be on a small team of individuals who care about doing excellent work, at a small to medium size organization.
+          I enjoy working in a variety of domains, which is why I am drawn to full-stack development. I get much enjoyment out of creating functional things for other people to use. My dream role would be on a small team of passionate individuals who care about doing excellent work, at a small to medium size organization.
         </p>
       </div>
 
