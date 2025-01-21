@@ -1,11 +1,23 @@
 import Timeline from "./Timeline"
+import andrewImage from '../../assets/andrew_eye.jpg'
 
 function About() {
   return (
     <div className="transition-colors duration-1000 flex flex-col items-center p-3">
+
       <div className="prose-lg md:prose-xl">
         <h2>About Me</h2>
       </div>
+      <figure className="mt-8 mb-2 max-w-sm">
+        <img
+          src={andrewImage}
+          alt="Andrew taking a phone call at MassMOCA"
+          className="w-full h-auto rounded-lg shadow-lg"
+        />
+        <figcaption className="text-center mt-3 text-gray-600 italic">
+          And now a word from our sponsor
+        </figcaption>
+      </figure>
 
       <Timeline />
 
@@ -33,7 +45,7 @@ function About() {
         </div>
 
         <p className="text-lg leading-relaxed">
-        I view LLMs as collaborative partners that complement my hands-on learning style. These tools help me rapidly prototype ideas and discover cutting-edge design patterns, yet I always anchor their output in fundamental understanding—whether that means manually diagramming AI-suggested architectures, refactoring generated code for clarity, or explaining technical choices in human terms. This balance allows me to embrace AI's exploratory potential while preserving the human intention behind every technical decision.        </p>
+          I view LLMs as collaborative partners that complement my hands-on learning style. These tools help me rapidly prototype ideas and discover cutting-edge design patterns, yet I always anchor their output in fundamental understanding—whether that means manually diagramming AI-suggested architectures, refactoring generated code for clarity, or explaining technical choices in human terms. This balance allows me to embrace AI's exploratory potential while preserving the human intention behind every technical decision.        </p>
       </div>
 
 
@@ -60,7 +72,7 @@ function About() {
         </div>
 
         <p className="text-lg leading-relaxed">
-          On weekends, I work on an organic farm (where I also assist with graphic design and website maintenance). I enjoy seeing live music in Boston from around the world, and eating a full Turkish breakfast, ideally.
+          On weekends, I work on an organic farm (where I also assist with graphic design and website maintenance). I enjoy seeing live music in Boston from around the world and eating a full Turkish breakfast.
         </p>
       </div>
     </div>

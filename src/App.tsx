@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter>
       <div className={`min-h-screen ${isDark ? 'bg-gray-900' : 'bg-white'} transition-colors duration-1000`}>
         <Header />
-        <main className="max-w-6xl mx-auto p-8">
+        <main className="max-w-5xl mx-auto p-8">
           <Routes>
             <Route path="/" element={<Resume />} />
             <Route path="/about" element={isDark ? <Navigate to="/" replace /> : <About />} />
