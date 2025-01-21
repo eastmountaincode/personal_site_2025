@@ -3,7 +3,7 @@ import { FaLocationDot, FaGraduationCap, FaCode } from 'react-icons/fa6'
 
 function ResumeHeader() {
     return (
-        <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16 justify-center mb-10 p-4 select-none opacity-0 animate-fadeIn">
+        <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16 justify-center mb-10 p-4 select-none">
             <img
                 src={profileImage}
                 alt="Andrew Boylan"
