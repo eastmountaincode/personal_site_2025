@@ -16,7 +16,7 @@ function Experience() {
   }
 
   return (
-    <div className='text-gray-200'>
+    <div className='text-gray-200 select-none'>
       <div className="mb-4 border-b border-gray-200 dark:border-gray-700">
         <ul className="flex flex-wrap -mb-px text-sm font-medium text-center">
           <li className="me-2">

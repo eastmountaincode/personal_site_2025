@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Resume from './components/Resume/Resume'
 import About from './components/About/About'
 import Header from './components/Header/Header'
@@ -14,8 +14,8 @@ function App() {
           <main className="max-w-6xl mx-auto p-8">
             <Routes>
               <Route path="/" element={<Resume />} />
-              <Route path="/about" element={<About />} />
-            </Routes>
+              <Route path="/about" element={isDark ? <Navigate to="/" replace /> : <About />} />
+              </Routes>
           </main>
         </div>
       </BrowserRouter>
