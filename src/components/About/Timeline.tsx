@@ -14,7 +14,7 @@ interface TimelineItem {
     },
     {
       period: "2019 - 2021",
-      description: "Began my programming journey. Studied sociology at the University of Cincinnati, and became a research assistant at UC's Digital Scholarship Center."
+      description: "Began my programming journey. Compled a bachelor's degree in sociology at the University of Cincinnati, while working as a research assistant at UC's Digital Scholarship Center."
     },
     {
       period: "2021 - 2024",
