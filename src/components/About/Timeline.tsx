@@ -14,17 +14,21 @@ interface TimelineItem {
     },
     {
       period: "2019 - 2021",
-      description: "Studied sociology at the University of Cincinnati, became interested in natural language processing, became a research assistant at UC's Digital Scholarship Center."
+      description: "Began my programming journey. Studied sociology at the University of Cincinnati, and became a research assistant at UC's Digital Scholarship Center."
     },
     {
       period: "2021 - 2024",
-      description: "Moved to Boston and completed a master's degree in computer science at Northeastern University."
+      description: "Moved to Boston and completed my master's degree in computer science at Northeastern University."
+    },
+    {
+      period: "Currently",
+      description: "Working as a Bioinformatics Specialist at Massachusetts General Hospital."
     }
   ];
   
   function Timeline() {
     return (
-      <div className="mt-8 max-w-xl mx-auto">
+      <div className="mt-8 max-w-xl mx-auto mb-8">
         <div className="flex items-center gap-3 mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
